@@ -4,6 +4,7 @@
 - data/03_Withdrawals.csv – DEQ Water Withdrawal Dashboard
   (https://datascience.deq.virginia.gov/Water-Withdrawals-View/)
   Units: million gallons per month. Reporting threshold: >10,000 gal/day.
+- data/withdrawals_clean.csv is not included; run 01_clean.R to create it.
 
 ## Scripts (run in order)
 - 01_clean.R – renames columns, removes power records, labels missing use types,
